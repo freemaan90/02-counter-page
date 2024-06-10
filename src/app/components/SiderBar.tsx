@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { IoBrowsersOutline, IoCalculator, IoLogoReact } from 'react-icons/io5'
+import { IoBrowsersOutline, IoCalculator, IoFootball, IoLogoReact } from 'react-icons/io5'
 import { SideBarMenuItem } from './SideBarMenuItem'
 
 export function SiderBar() {
@@ -19,11 +19,18 @@ export function SiderBar() {
             subtitle: 'Counter Client Side'
 
         },
+        {
+            path: '/dashboard/pokemons',
+            icon: <IoFootball size={40} />,
+            title: 'Pokemons',
+            subtitle: 'Generacion Estatica'
+
+        },
     ]
     return (
         <div id="menu"
             style={{ width: '400px' }}
-            className="bg-gray-900 min-h-screen z-10 text-slate-300 w-64 left-0 h-screen overflow-y-scroll">
+            className="bg-gray-900 min-h-screen z-10 text-slate-300 w-64 left-0 overflow-y-scroll">
             <div id="logo" className="my-4 px-6">
                 <h1
                     className="flex items-center text-lg md:text-2xl font-bold text-white">
