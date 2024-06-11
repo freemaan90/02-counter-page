@@ -1,4 +1,4 @@
-import { SiderBar } from "./components/SiderBar";
+import { SiderBar } from "./components/sidebar/SiderBar";
 import Link from 'next/link'
 
 export default function NotFound() {

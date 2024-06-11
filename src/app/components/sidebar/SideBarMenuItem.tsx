@@ -1,4 +1,4 @@
-import { ActiveLink } from "./active-link/ActiveLink"
+import { ActiveLink } from "../active-link/ActiveLink"
 
 interface Props {
     path: string,
